@@ -11,7 +11,7 @@ def turn_count(board)  # Returns the number of turns that have been played
   counter = 0 
   board.each do |board|
     if board == "X" || board == "O"
-      counter + 1
+      counter += 1
     end 
 end 
 return counter
