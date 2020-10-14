@@ -15,7 +15,7 @@ def turn_count(board)  # Returns the number of turns that have been played
       return counter
     end 
 end 
-
+end
 
 def current_player(board)
 #If the turn count is is even, retrun X. If it is odd, return O.   
